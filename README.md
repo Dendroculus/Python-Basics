@@ -1,99 +1,98 @@
-# Python 🐍 from Zero to OOP 🚀
-A friendly, hands‑on path to learn Python from scratch and reach solid Object‑Oriented Programming (OOP) skills. Made for the Astral Family organization.
+<h1 align="center">Python 🐍 from Zero to OOP 🚀</h1>
+<p align="center">A friendly, hands-on path to learn Python from scratch and build solid Object-Oriented Programming (OOP) skills. Made for the Astral Family organization.</p>
 
-- Python version: 3.12+
-- Style: learn by doing, small steps, real mini‑projects
-- Goal: master the basics → OOP (no backend yet)
-
----
-
-## Table of Contents
-- [What You’ll Learn ✨](#what-youll-learn-)
-- [Who This Is For 👥](#who-this-is-for-)
-- [How To Use This Repo 🧭](#how-to-use-this-repo-)
-- [Prerequisites ✅](#prerequisites-)
-- [Setup 🛠️](#setup-️)
-- [Curriculum Overview 📚](#curriculum-overview-)
-- [Detailed Syllabus 🔎](#detailed-syllabus-)
-- [Checkpoints 🎯](#checkpoints-)
-- [Practice Projects 🏗️](#practice-projects-)
-- [Next Steps (Optional) 🌱](#next-steps-optional-)
-- [Helpful Resources 🔗](#helpful-resources-)
-- [Contributing 🤝](#contributing-)
-- [License 📄](#license-)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.12+-blue.svg" alt="Python Version">
+  <img src="https://img.shields.io/badge/Style-Learn--by--Doing-green.svg" alt="Learning Style">
+  <img src="https://img.shields.io/badge/Focus-Core_&_OOP-purple.svg" alt="Course Focus">
+</p>
 
 ---
 
-## What You’ll Learn ✨
-By the end, you will be able to:
-- Write clear Python code with good names, comments, and simple tests.
-- Work with numbers, strings, lists, sets, and dictionaries.
-- Use conditions, loops, and list/dict comprehensions.
-- Organize code into functions, files, and small packages.
-- Read and write files (CSV/JSON) safely.
-- Handle errors and add logs to see what your code is doing.
-- Design classes and use dataclasses to model real‑world things.
-
-No web, APIs, or databases here — we stop at OOP.
-
----
-
-## Who This Is For 👥
-- Total beginners (no coding needed).
-- Learners who know a bit of Python and want to get strong up to OOP.
-- Mentors teaching 1–5 learners with GitHub.
-
-Suggested pace: 6–10 weeks part‑time.
+## 🧭 Table of Contents
+- [✨ What You’ll Learn](#-what-youll-learn)
+- [🎯 How This Course is Different](#-how-this-course-is-different)
+- [👥 Who This Is For](#-who-this-is-for)
+- [✅ Prerequisites](#-prerequisites)
+- [🛠️ Setup](#️-setup)
+- [📚 Curriculum Overview](#-curriculum-overview)
+- [🔎 Detailed Syllabus](#-detailed-syllabus)
+- [🏗️ Practice Projects](#️-practice-projects)
+- [🌱 Next Steps (Optional)](#-next-steps-optional)
+- [🔗 Helpful Resources](#-helpful-resources)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## How To Use This Repo 🧭
-- Each module has goals and practice tasks.
-- Learner workflow:
-  1) Make a branch for the module.  
-  2) Do the tasks and try the stretch ideas if you can.  
-  3) Open a Pull Request (PR) and get feedback.  
-  4) Merge when you’re happy with it.
+## ✨ What You’ll Learn
+By the end of this course, you will be able to:
+- **Write clean, readable Python code** following professional standards.
+- **Master fundamental data structures** like lists, dictionaries, sets, and tuples.
+- **Control program flow** with conditions, loops, and elegant comprehensions.
+- **Organize your code** into functions, modules, and simple packages.
+- **Work with files** to read and write data in common formats like CSV and JSON.
+- **Handle errors gracefully** and add logging to debug your applications.
+- **Design and build your own classes** using Object-Oriented Programming (OOP) principles to model real-world concepts.
 
-Tip: Turn on branch protection and basic CI (tests + lint) so PRs run checks.
-
----
-
-## Prerequisites ✅
-- A computer with internet
-- A GitHub account
-- Basic command line helps (we’ll show what you need)
+This course is laser-focused on core Python and OOP. We do **not** cover web frameworks, APIs, or databases.
 
 ---
 
-## Setup 🛠️
-1) Install Python 3.12+
-- Windows: install from [python.org](https://www.python.org/downloads/) (check “Add Python to PATH”)
-- macOS: `brew install python@3.12`
-- Linux: use your package manager or [pyenv](https://github.com/pyenv/pyenv)
-
-2) Make and activate a virtual environment
-```bash
-python -m venv .venv
-# Windows (PowerShell)
-. .venv/Scripts/Activate.ps1
-# macOS/Linux
-source .venv/bin/activate
-
-pip install -U pip
-```
-
-3) Nice to have
-- VS Code + Python, Pylance, Black, Ruff
-- Git + GitHub sign‑in
-- Optional: Dev Containers or Codespaces
+## 🎯 How This Course is Different
+- **Hands-On & Project-Based**: You learn by doing. Every module includes practical exercises and builds towards small, real-world projects.
+- **Incremental Steps**: We break down complex topics into small, manageable steps to ensure you build a strong foundation without feeling overwhelmed.
+- **Code Quality Focus**: From day one, you'll learn to write code that is not only functional but also clean, well-documented, and easy for others to read.
+- **GitHub Workflow**: You will learn and use the standard developer workflow of branching, committing, and creating Pull Requests, preparing you for real-world collaboration.
 
 ---
 
-## Curriculum Overview 📚
-Core path (9 modules):
+## 👥 Who This Is For
+- **Absolute Beginners** with no prior coding experience.
+- **Hobbyist Programmers** who know some Python basics but want a structured path to master OOP.
+- **Mentors** who are guiding a small group of learners and want a ready-made curriculum with clear checkpoints.
 
-| # | Module | Focus |
+**Suggested pace:** 6–10 weeks, studying part-time.
+
+---
+
+## ✅ Prerequisites
+- A computer with an internet connection.
+- A GitHub account.
+- Basic familiarity with the command line is helpful, but not required (we’ll guide you through the essentials).
+
+---
+
+## 🛠️ Setup
+Follow the instructions in **[Module 0: Onboarding & Tools](module%200/README.md)** to set up your complete development environment. The essentials are:
+
+1.  **Install Python 3.12+**
+    - Windows: Install from [python.org](https://www.python.org/downloads/) (ensure you check “Add Python to PATH”).
+    - macOS: `brew install python@3.12`
+    - Linux: Use your system's package manager or `pyenv`.
+
+2.  **Create and activate a virtual environment**
+    ```bash
+    # Create the environment
+    python -m venv .venv
+    
+    # Activate it (example for macOS/Linux)
+    source .venv/bin/activate
+    
+    # Upgrade pip
+    pip install -U pip
+    ```
+
+3.  **Recommended Tools**
+    - **Editor**: VS Code with the official Python extension.
+    - **Version Control**: Git and a GitHub account.
+
+---
+
+## 📚 Curriculum Overview
+The course is divided into 9 core modules, designed to take you from zero to confidently building object-oriented programs.
+
+|No | Module | Focus |
 |---|--------|-------|
 | 0 | Onboarding & Tools ⚙️ | Shell, Git, Python install, venv, VS Code |
 | 1 | Python Basics I 🧱 | Syntax, variables, numbers, strings, input/output |
@@ -105,126 +104,123 @@ Core path (9 modules):
 | 7 | Errors & Logging 🧯 | exceptions, custom errors, logging basics |
 | 8 | OOP & Dataclasses 🏷️ | classes, methods, properties, dataclasses, basics of design |
 
-Then: practice projects and optional “next steps” (not backend).
+After completing the core modules, you will apply your skills in a series of practice projects.
 
 ---
 
-## Detailed Syllabus 🔎
+## 🔎 Detailed Syllabus
 
-### Module 0 — Onboarding & Tools ⚙️
-- Learn: command line, Git/GitHub flow, Python install, virtualenvs, VS Code.
-- Build: make this repo work locally; “Hello, world!”; first PR.
-- Try: change the README, open a PR, ask for review.
+<details>
+  <summary><strong>Module 0 — Onboarding & Tools ⚙️</strong></summary>
+  
+  - **Learn**: Command line basics, the complete Git/GitHub workflow (clone, branch, commit, push, PR), Python installation, virtual environments, and VS Code setup.
+  - **Build**: Get the repository running on your local machine, write a "Hello, world!" script, and submit your first Pull Request.
+</details>
 
-### Module 1 — Python Basics I 🧱
-- Learn: variables, data types (int/float/bool/str), math, f‑strings, input/output, REPL.
-- Build: tiny calculator, unit converter, string formatter.
-- Try: format a table of items and prices with f‑strings.
+<details>
+  <summary><strong>Module 1 — Python Basics I 🧱</strong></summary>
+  
+  - **Learn**: Core syntax, variables, data types (`int`, `float`, `bool`, `str`), mathematical operations, f-strings for formatting, and user input/output (`input()`, `print()`).
+  - **Build**: A tiny calculator, a unit converter, and a string formatting script.
+</details>
 
-### Module 2 — Control Flow 🔁
-- Learn: if/elif/else, `match`, `for`/`while`, `break`/`continue`, list/dict/set comprehensions.
-- Build: fizzbuzz+, text stats, simple rule engine with `match`.
-- Try: make a number guessing game.
+<details>
+  <summary><strong>Module 2 — Control Flow 🔁</strong></summary>
+  
+  - **Learn**: Conditional logic (`if`/`elif`/`else`), the `match` statement, loops (`for`/`while`), loop control (`break`/`continue`), and list/dictionary/set comprehensions.
+  - **Build**: A FizzBuzz-style program, a script for text statistics, and a simple rule engine using `match`.
+</details>
 
-### Module 3 — Data Structures 🧺
-- Learn: strings, lists, tuples, sets, dicts; slicing; copying vs mutability.
-- Build: word counter, anagram checker, phonebook with dict methods.
-- Try: frequency map of letters/words from a file.
+<details>
+  <summary><strong>Module 3 — Data Structures 🧺</strong></summary>
+  
+  - **Learn**: In-depth work with strings, lists, tuples, sets, and dictionaries. Covers slicing, indexing, and the crucial concept of mutability vs. immutability.
+  - **Build**: A word counter, an anagram checker, and a simple phonebook using dictionary methods.
+</details>
 
-### Module 4 — Functions & Types 🧩
-- Learn: `def`, returns, default args, `*args`/`**kwargs`, docstrings, type hints.
-- Build: small utilities library; add helpful type hints.
-- Try: write a tiny “stats” module with clear function names.
+<details>
+  <summary><strong>Module 4 — Functions & Types 🧩</strong></summary>
+  
+  - **Learn**: Defining functions (`def`), handling arguments (`*args`, `**kwargs`), return values, writing docstrings, and using type hints for clarity.
+  - **Build**: A small library of utility functions with clear documentation and type hints.
+</details>
 
-### Module 5 — Modules & Packages 🗂️
-- Learn: imports, package layout, `__name__ == "__main__"`, relative vs absolute imports.
-- Build: mini multi‑file project with a `main.py` entry point.
-- Try: split code into `core/` and `cli/` modules.
+<details>
+  <summary><strong>Module 5 — Modules & Packages 🗂️</strong></summary>
+  
+  - **Learn**: How to use `import`, structure a project into multiple files, use the `__name__ == "__main__"` entry point, and understand relative vs. absolute imports.
+  - **Build**: A mini-project split into multiple files with a clear `main.py` starting point.
+</details>
 
-### Module 6 — Files & Data 💾
-- Learn: `pathlib`, context managers (`with`), text vs binary, CSV and JSON.
-- Build: CSV ➜ JSON converter with simple validation.
-- Try: scan a folder and summarize file sizes and types.
+<details>
+  <summary><strong>Module 6 — Files & Data 💾</strong></summary>
+  
+  - **Learn**: Using `pathlib` for modern file path manipulation, context managers (`with`), reading/writing text files, and handling structured data with CSV and JSON.
+  - **Build**: A command-line tool that converts data from a CSV file to a JSON file with simple validation.
+</details>
 
-### Module 7 — Errors & Logging 🧯
-- Learn: try/except/else/finally, raising your own errors, logging levels/handlers.
-- Build: add strong error handling and logs to a previous project.
-- Try: write a tiny `validate_input()` that raises clear errors.
+<details>
+  <summary><strong>Module 7 — Errors & Logging 🧯</strong></summary>
+  
+  - **Learn**: Handling exceptions with `try`/`except`/`else`/`finally`, raising custom errors, and using the `logging` module to record application events.
+  - **Build**: Refactor a previous project to include robust error handling and informative log messages.
+</details>
 
-### Module 8 — OOP & Dataclasses 🏷️
-- Learn: classes, `__init__`, instance/class/static methods, properties, `@dataclass`; when to use composition vs simple data.
-- Build: model a small domain (Library/Bank/Inventory) with classes and dataclasses.
-- Try: write unit tests for one class (basic happy path and one error case).
-
----
-
-## Checkpoints 🎯
-- C1 (after 0–3): Fundamentals mini‑project (use lists/dicts and loops)
-- C2 (after 4–6): Utility project split across modules; reads/writes files
-- C3 (after 7–8): OOP project with classes, dataclasses, and error handling
-
-Simple grading idea:
-- Correctness 40% (works, handles edge cases)
-- Code Quality 30% (readable names, small functions, comments)
-- Structure 20% (files/modules make sense)
-- Docs 10% (README and usage examples)
-
-Keep finished work in a `portfolio/` folder.
-
----
-
-## Practice Projects 🏗️
-Pick 2–3. Keep them small and polished.
-
-1) Task Tracker CLI 📝  
-- Add tasks, mark done, list by status. Save to JSON.  
-- Uses: dict/list ops, files, simple errors.
-
-2) Expense Splitter 💸  
-- Split a bill between people, handle tax/tip, export CSV.  
-- Uses: functions, types, formatting, files.
-
-3) Flashcards Trainer 🎴  
-- Load Q&A from CSV, quiz in the terminal, track score.  
-- Uses: loops, files, small module layout.
-
-4) Library Inventory (OOP) 📚  
-- Book, Member, Loan classes; borrow/return with rules; save JSON.  
-- Uses: OOP, dataclasses, error handling, logging.
-
-5) File Organizer 🗂️  
-- Move files into folders by type/date; dry‑run mode.  
-- Uses: pathlib, functions, logs.
+<details>
+  <summary><strong>Module 8 — OOP & Dataclasses 🏷️</strong></summary>
+  
+  - **Learn**: The principles of Object-Oriented Programming. Covers classes, `__init__`, methods, properties, and the convenient `@dataclass` decorator.
+  - **Build**: A small application that models a real-world domain (e.g., a Library, Bank, or Inventory) using classes and dataclasses.
+</details>
 
 ---
 
-## Next Steps (Optional) 🌱
-When you’re ready (still no backend), try:
-- Testing basics with pytest 🧪
-- Code style: Black + Ruff 🧼
-- Simple packaging with `pyproject.toml` 📦
-- Small GUIs (e.g., Tkinter) 🪟
-- Algorithms and problem practice 🧠
+## 🏗️ Practice Projects
+After completing the core modules, choose 2-3 of these projects to build your portfolio.
+
+1.  **Task Tracker CLI** 📝
+    - **Description**: A command-line tool to add, list, and mark tasks as complete. Data is saved to a JSON file.
+    - **Concepts**: Dictionaries, lists, file I/O (JSON), functions, simple error handling.
+
+2.  **Expense Splitter** 💸
+    - **Description**: A tool to split a restaurant bill among several people, including tax and tip. The results can be exported to a CSV file.
+    - **Concepts**: Functions, type hints, string formatting, file I/O (CSV).
+
+3.  **Flashcards Trainer** 🎴
+    - **Description**: A terminal-based flashcard application that loads questions and answers from a CSV file, quizzes the user, and tracks their score.
+    - **Concepts**: Loops, file I/O, modular layout.
+
+4.  **Library Inventory (OOP)** 📚
+    - **Description**: A system to manage a library's inventory. Model `Book`, `Member`, and `Loan` with classes. Implement rules for borrowing and returning.
+    - **Concepts**: OOP, dataclasses, error handling, logging.
 
 ---
 
-## Helpful Resources 🔗
+## 🌱 Next Steps (Optional)
+Once you've mastered OOP, you can explore these intermediate topics:
+- **Testing**: Learn the basics of writing tests for your code with `pytest`. 🧪
+- **Code Style**: Enforce consistent code style automatically with `Black` and `Ruff`. 🧼
+- **Packaging**: Learn to package your project using `pyproject.toml`. 📦
+- **GUIs**: Create simple graphical user interfaces with libraries like `Tkinter`. 🪟
+
+---
+
+## 🔗 Helpful Resources
 - [Python Official Tutorial](https://docs.python.org/3/tutorial/)
 - [Python Official Documentation](https://docs.python.org/3/)
-- [Automate the Boring Stuff](https://automatetheboringstuff.com/)
-- [Real Python (articles)](https://realpython.com/)
-- [PEP 8 (style guide)](https://peps.python.org/pep-0008/)
-- [PEP 257 (docstrings)](https://peps.python.org/pep-0257/)
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+- [Real Python](https://realpython.com/)
+- [PEP 8 (Style Guide)](https://peps.python.org/pep-0008/)
 
 ---
 
-## Contributing 🤝
-- Open an issue for ideas or bugs.  
-- Make a branch per module or feature.  
-- Run your code and self‑review before opening a PR.  
-- Ask for feedback and improve your PR.
+## 🤝 Contributing
+- Have an idea or find a bug? Open an issue.
+- Follow the standard Git workflow: create a branch for each module or feature.
+- Always test your code and self-review before opening a Pull Request.
+- Engage in feedback to improve your code.
 
 ---
 
-## License 📄
-MIT LICENSE, see [LICENSE](https://github.com/Astral-Family/Python-Basics/blob/main/LICENSE) for more.
+## 📄 License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Astral-Family/Python-Basics/blob/main/LICENSE) file for details.
