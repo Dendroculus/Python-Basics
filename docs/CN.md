@@ -1,3 +1,6 @@
+[EN](../README.md) | 中文
+
+
 <h1 align="center">Python 🐍 从零到面向对象编程 🚀</h1>
 <p align="center">一条友好、实战的学习路径，帮助您从零开始学习 Python，并掌握扎实的面向对象编程（OOP）技能。为 Astral Family 组织量身打造。</p>
 
