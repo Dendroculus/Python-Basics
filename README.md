@@ -1,3 +1,5 @@
+EN | [中文](docs/CN.md)
+
 <h1 align="center">Python 🐍 from Zero to OOP 🚀</h1>
 <p align="center">A friendly, hands-on path to learn Python from scratch and build solid Object-Oriented Programming (OOP) skills. Made for the Astral Family organization.</p>
 
